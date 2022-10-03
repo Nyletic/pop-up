@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="headers">
+          <div class="firstCol">Ime i Prezime</div>
+          <div class="secondCol">Oib</div>
+          <div class="thirdCol">Datum rođenja</div>
+        </div>
+        <div class="body">
+          <div class="person">
+            <div class="number">1</div>
+            <div class="imeIPrezime">Darko Darkić</div>
+            <div class="oib">12345</div>
+            <div class="datumRodjenja">01.01.2000</div>
+            <button class="open-btn">Info</button>
+          </div>
+          <div class="person">
+            <div class="number">2</div>
+            <div class="imeIPrezime">Marko Markić</div>
+            <div class="oib">23456</div>
+            <div class="datumRodjenja">02.02.2000</div>
+            <button class="open-btn">Info</button>
+          </div>
+          <div class="person">
+            <div class="number">3</div>
+            <div class="imeIPrezime">Klarko Klarkić</div>
+            <div class="oib">34567</div>
+            <div class="datumRodjenja">03.03.2000</div>
+            <button class="open-btn">Info</button>
+          </div>
+          <div class="person">
+            <div class="number">4</div>
+            <div class="imeIPrezime">Farko Farkić</div>
+            <div class="oib">45678</div>
+            <div class="datumRodjenja">04.04.2000</div>
+            <button class="open-btn">Info</button>
+          </div>
+          <div class="person">
+            <div class="number">5</div>
+            <div class="imeIPrezime">Pero Perić</div>
+            <div class="oib">56789</div>
+            <div class="datumRodjenja">25.08.2000</div>
+            <button class="open-btn">Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popUp">
+      <div class="popUp-wrapper">
+        <div class="naslovi">
+          <div>Ime i Prezime:</div>
+          <div>Oib:</div>
+          <div>Datum Rođenja:</div>
+        </div>
+        <div class="podaci">
+          <div id="IiP"></div>
+          <div id="OIB"></div>
+          <div id="DOB"></div>
+        </div>
+      </div>
+      <button id="close-btn">Zatvori</button>
+    </div>
+  </body>
+</html>
